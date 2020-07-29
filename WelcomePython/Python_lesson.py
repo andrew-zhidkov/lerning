@@ -17,7 +17,6 @@ time.sleep(1)
 
 
 work = '' #Чтобы не было ошибки в цикле while ниже
-
 while type(work) != int or work != 2:
     work = input(userName + ' позанимаемся полезними делами?\n'
                                     '[1] - Да, хочу провести время с пользой\n'
